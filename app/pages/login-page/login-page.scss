@@ -27,6 +27,11 @@
   margin-left: 0.5rem;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
 .row {
   display: flex;
@@ -34,5 +39,5 @@
 }
 
 .opacity-grey {
-  color: #34343484
+  color: #34343484;
 }

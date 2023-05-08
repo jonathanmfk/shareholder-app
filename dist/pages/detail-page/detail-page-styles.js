@@ -38,4 +38,10 @@ export default css`
 .opacity-grey {
   color: rgba(52, 52, 52, 0.5176470588);
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 `;

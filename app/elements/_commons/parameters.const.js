@@ -12,3 +12,8 @@ export const EVENT_NAMES = {
 export const PARAMETERS_GLOBAL = {
   countMembersLvl: 5
 }
+
+export const TIPO_DOCUMENTO = {
+  CC: 'CC',
+  NIT: 'NIT'
+};

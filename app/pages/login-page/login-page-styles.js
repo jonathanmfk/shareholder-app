@@ -30,6 +30,12 @@ export default css`
   margin-left: 0.5rem;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .row {
   display: flex;
   align-items: baseline;
