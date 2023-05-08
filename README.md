@@ -27,7 +27,13 @@ npm -g install @cells/cells-cli
 ~~~
 
 Una vez instalado, el comando `cells` estará disponible para usar.
+## Instalación de dependencias
 
+* Para instalar las dependecias utiliza el siguente comando corto
+
+~~~
+$ npm i
+~~~
 ## Ejecutar la App
 
 * Para iniciar la app tiene que utilizar el atajo corto de npm
