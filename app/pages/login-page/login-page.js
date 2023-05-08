@@ -82,7 +82,7 @@ class LoginPage extends BbvaCoreIntlMixin(CellsPage) {
       <shareholder-list-ui id="list-ui"
         @go-to-next="${this.goToDetail}">
       </shareholder-list-ui>
-      ${this.noti}
+      ${this.notificationRender}
     </div>
     `;
   }
@@ -96,7 +96,7 @@ class LoginPage extends BbvaCoreIntlMixin(CellsPage) {
     `;
   }
 
-  get noti() {
+  get notificationRender() {
     return html`
     <bbva-web-notification-contextual heading-icon="${bbvaInfo()}">
       <p><b>Recuerda que si deseas actualizar la información de los accionistas, deberás dirigirte a tu oficina o canal web</b></p>
