@@ -8,3 +8,7 @@ export const EVENT_NAMES = {
   shareholderDetailSuccess: 'shareholder-detail',
   detailPageData:'detail-page-data'
 }
+
+export const PARAMETERS_GLOBAL = {
+  countMembersLvl: 5
+}
